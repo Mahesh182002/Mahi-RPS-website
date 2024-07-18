@@ -1,0 +1,53 @@
+body{
+  background-color: rgb(30, 29, 29);
+  color: white;
+  font-family:cursive;
+  text-align: center;
+}
+
+.heading{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.emoji-button{
+  background-color: transparent;
+  border-color: white;
+  border-style: solid;
+  border-radius: 50%;
+  border-width: 3px;
+  margin-right: 10px;
+  padding: 30px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.emoji-button:hover{
+  transform: scale(1.075);
+}
+
+.button-image{
+  width: 50px;
+}
+
+.reset-button{
+  background-color: transparent;
+  border-color: white;
+  color: rgb(253, 203, 3);
+  border-style: solid;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.reset-button:hover{
+  transform: scale(1.075);
+}
+.results{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.score{
+  margin: 50px 0 15px 0;
+}
